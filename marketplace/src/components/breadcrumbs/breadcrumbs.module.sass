@@ -1,0 +1,26 @@
+@use "@/styles/variables"
+@use "@/styles/layout.module"
+@use "@/styles/typography.module"
+
+.nav-breadcrumbs
+  @extend .flex-row-center
+  justify-content: start
+  max-width: variables.$max-width-content
+  width: 100%
+  margin: 14px 0 30px
+
+  ul
+    display: flex
+    flex-wrap: wrap
+    line-height: 1.45
+
+    li
+      @extend .flex-row-center
+      @extend .text-neutral-medium
+      transition: color .2s ease-in-out
+
+      &:hover
+        color: variables.$text-color-neutral-strong
+
+      img
+        margin: 0 6px

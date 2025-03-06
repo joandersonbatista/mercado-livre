@@ -1,0 +1,9 @@
+@use "variables"
+
+@mixin respond($breakpoint)
+  @if map-has-key(variables.$breakpoints, $breakpoint)
+    @media (max-width: map-get(variables.$breakpoints, $breakpoint))
+      @content
+
+@mixin box-shadow($opacity, $blur: 1px)
+  box-shadow: 0 1px $blur 0 rgba(0, 0, 0, $opacity)

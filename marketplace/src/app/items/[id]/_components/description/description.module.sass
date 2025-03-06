@@ -1,0 +1,15 @@
+@use "@/styles/variables"
+@use "@/styles/typography.module"
+
+.description-container
+  margin-top: 64px
+
+  h2
+    @extend .title-bold
+    font-weight: variables.$font-weight-medium
+    font-size: 26px
+    margin-bottom: 24px
+
+  p
+    @extend .text-neutral-medium
+    font-size: 18px

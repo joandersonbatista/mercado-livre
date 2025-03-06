@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconButton Component should match the snapshot 1`] = `
+<div>
+  <button
+    class="icon-button "
+    data-testid="icon-button"
+  >
+    <span>
+      🔍
+    </span>
+  </button>
+</div>
+`;

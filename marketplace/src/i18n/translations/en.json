@@ -1,0 +1,38 @@
+{
+  "navHeader": {
+    "searchPlaceHolder": "Search for products",
+    "searchFormLabel": "Search for products",
+    "searchIconAlt": "search icon",
+    "searchIconAriaLabel": "icon to search for products",
+    "logoMarkAlt": "Mercado Livre logomark"
+  },
+  "metadata": {
+    "template": "%s | Mercado Livre",
+    "default": "Mercado Livre",
+    "description": "The Largest Marketplace in Latin America"
+  },
+  "itemsPage": {
+    "notFoundTitle": "There are no listings that match your search",
+    "freeShipping": "Free shipping",
+    "errorTitle": "Something went wrong",
+    "metadataNotFoundTitle": "Search items"
+  },
+  "itemPage": {
+    "notFoundTitle": "Item not found",
+    "metadataNotFoundTitle": "Item not found",
+    "productAltLabel": "product",
+    "buyNowButtonLabel": "Buy now",
+    "descriptionLabel": "Product description",
+    "conditionStatus": {
+      "new": "new",
+      "used": "used",
+      "refurbished": "refurbished"
+    }
+  },
+  "pageNotFound": "Page not found",
+  "serverErrorTitle": "Internal Server Error",
+  "changeLanguage": "Change language",
+  "br": "Portuguese",
+  "en": "English",
+  "es": "Spanish"
+}

@@ -1,0 +1,16 @@
+@use "@/styles/variables"
+@use "@/styles/mixins"
+@use "@/styles/layout.module"
+
+.item-content
+  @include mixins.box-shadow(0.12)
+  max-width: variables.$max-width-content
+  width: 100%
+  background-color: variables.$background-color-neutral-default
+  border-radius: 6px
+  padding: 24px
+  margin-bottom: 24px
+
+  .card-content
+    @extend .flex-row-center
+    align-items: start

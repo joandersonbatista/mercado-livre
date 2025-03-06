@@ -1,0 +1,38 @@
+{
+  "navHeader": {
+    "searchPlaceHolder": "Buscar productos",
+    "searchFormLabel": "Buscar productos",
+    "searchIconAlt": "icono de búsqueda",
+    "searchIconAriaLabel": "icono para buscar productos",
+    "logoMarkAlt": "Mercado Libre logomark"
+  },
+  "metadata": {
+    "template": "%s | Mercado Libre",
+    "default": "Mercado Libre",
+    "description": "El Marketplace más grande de América Latina"
+  },
+  "itemsPage": {
+    "notFoundTitle": "No hay anuncios que coincidan con tu búsqueda",
+    "freeShipping": "Envío gratis",
+    "errorTitle": "Algo salió mal",
+    "metadataNotFoundTitle": "Buscar artículos"
+  },
+  "itemPage": {
+    "notFoundTitle": "Artículo no encontrado",
+    "metadataNotFoundTitle": "Artículo no encontrado",
+    "productAltLabel": "producto",
+    "buyNowButtonLabel": "Comprar ahora",
+    "descriptionLabel": "Descripción del producto",
+    "conditionStatus": {
+      "new": "nuevo",
+      "used": "usado",
+      "refurbished": "reacondicionado"
+    }
+  },
+  "pageNotFound": "Página no encontrada",
+  "serverErrorTitle": "Error Interno del Servidor",
+  "changeLanguage": "Cambiar idioma",
+  "br": "Portugués",
+  "en": "Inglés",
+  "es": "Español"
+}

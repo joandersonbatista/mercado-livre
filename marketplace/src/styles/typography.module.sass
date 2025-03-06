@@ -1,0 +1,30 @@
+@use "variables"
+
+@mixin title-base
+  color: variables.$text-color-neutral-strong
+  font-size: 24px
+
+.title-bold
+  @include title-base
+  font-weight: variables.$font-weight-semi-bold
+
+.title-bold-tiny
+  @include title-base
+  font-size: 16px
+  font-weight: variables.$font-weight-semi-bold
+
+.title-light
+  @include title-base
+  font-weight: variables.$font-weight-light
+
+@mixin text-base
+  font-weight: variables.$font-weight-light
+  font-size: 14px
+
+.text-neutral-strong
+  @include text-base
+  color: variables.$text-color-neutral-strong
+
+.text-neutral-medium
+  @include text-base
+  color: variables.$text-color-neutral-medium

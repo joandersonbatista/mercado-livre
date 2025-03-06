@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component should match the snapshot 1`] = `
+<div>
+  <header
+    class="nav-header"
+  >
+    <div>
+      <a
+        href="/"
+      >
+        <img
+          alt="logoMarkAlt"
+          data-nimg="1"
+          decoding="async"
+          height="34"
+          loading="lazy"
+          src="/logo.svg"
+          style="color: transparent;"
+          width="60"
+        />
+      </a>
+      <form
+        action="/items"
+        method="GET"
+        role="search"
+      >
+        <label
+          class="sr-only"
+        >
+          searchFormLabel
+        </label>
+        <input
+          autocapitalize="off"
+          autocomplete="off"
+          autocorrect="off"
+          data-testid="input-search-items"
+          maxlength="80"
+          name="search"
+          placeholder="searchPlaceHolder"
+          spellcheck="false"
+          type="text"
+          value="playstation"
+        />
+        <button
+          class="icon-button "
+          data-testid="submit-search-items"
+          type="submit"
+        >
+          <img
+            alt="searchIconAlt"
+            aria-label="searchIconAriaLabel"
+            data-nimg="1"
+            decoding="async"
+            height="24"
+            loading="lazy"
+            src="/icons/search.svg"
+            style="color: transparent;"
+            width="34"
+          />
+        </button>
+      </form>
+      <label>
+        <p
+          class="sr-only"
+        >
+          Change language
+        </p>
+        <select
+          class="select-language-content"
+        >
+          <option
+            value="br"
+          >
+            🇧🇷
+             
+            Portuguese
+          </option>
+          <option
+            selected=""
+            value="en"
+          >
+            🇺🇸
+             
+            English
+          </option>
+          <option
+            value="es"
+          >
+            🇨🇴
+             
+            Spanish
+          </option>
+        </select>
+      </label>
+    </div>
+  </header>
+</div>
+`;

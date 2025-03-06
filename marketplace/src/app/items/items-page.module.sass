@@ -1,0 +1,18 @@
+@use "@/styles/variables"
+@use "@/styles/layout.module"
+@use "@/styles/mixins"
+
+.items-content
+  @extend .flex-column-center
+  max-width: variables.$max-width-content
+  width: 100%
+  background-color: variables.$background-color-neutral-default
+  border-radius: 6px
+  @include mixins.box-shadow(0.12)
+
+  ol, ul
+    width: 100%
+    display: block
+
+    li
+      border-bottom: thin solid variables.$border-color-neutral-weak;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumbs Component should match the snapshot 1`] = `
+<div>
+  <nav
+    class="nav-breadcrumbs"
+  >
+    <ul>
+      <li>
+        <a
+          href=""
+          role="link"
+        >
+          Home
+        </a>
+        <img
+          alt="icone chevron"
+          data-nimg="1"
+          decoding="async"
+          height="8"
+          loading="lazy"
+          src="/icons/chevron.svg"
+          style="color: transparent;"
+          width="10"
+        />
+      </li>
+      <li>
+        <a
+          href=""
+          role="link"
+        >
+          Category
+        </a>
+        <img
+          alt="icone chevron"
+          data-nimg="1"
+          decoding="async"
+          height="8"
+          loading="lazy"
+          src="/icons/chevron.svg"
+          style="color: transparent;"
+          width="10"
+        />
+      </li>
+      <li>
+        <a
+          href=""
+          role="link"
+        >
+          Product
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;

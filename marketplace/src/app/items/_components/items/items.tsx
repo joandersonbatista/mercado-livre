@@ -13,7 +13,7 @@ type Props = {
 export const Items = async ({ data }: Props): Promise<JSX.Element> => {
   const hasItems = data.items.length > 0;
 
-  if (hasItems) return <NotFoundItems />;
+  if (!hasItems) return <NotFoundItems />;
 
   const breadcrumbItems = data.categories.map((category) => ({
     name: category,

@@ -26,7 +26,7 @@ export class MercadoLivreMarketplaceService implements MarketplaceService {
   ): Promise<MarketplaceServiceTypes.ListItemsResult> {
     try {
       const response = await axios<MarketplaceServiceTypes.ListItemsResult>(
-        `${this.MERCADO_LIVRE_API_URL}/sites/MLA/search?q=celular`,
+        `${this.MERCADO_LIVRE_API_URL}/sites/MLA/search`,
         {
           params: {
             limit: this.LIST_ITEMS_LIMIT,
